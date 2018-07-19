@@ -1,4 +1,4 @@
-# Cabify Mobile Challenge
+# Cabify Challenge
 
 ##### Besides providing exceptional transportation services, Cabify also runs a physical store which sells (only) 3 products:
 
