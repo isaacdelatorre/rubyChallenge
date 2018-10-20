@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 public class TshirtDiscountRule implements ItemDiscountRule {
 
 	@Override
-	public double applyRule(double price, Integer amount) {
+	public double applyRule(final double price, final Integer amount) {
 		double discountPrice;
 		if (amount < 3) {
 			discountPrice = price * amount;

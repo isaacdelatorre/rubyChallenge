@@ -22,7 +22,7 @@ public class CabifyStoreRunner implements CommandLineRunner {
 	private DecimalFormat decimalFormat;
 
 	@Override
-	public void run(String... args) {
+	public void run(final String... args) {
 		checkout.scan("VOUCHER");
 		checkout.scan("TSHIRT");
 		checkout.scan("VOUCHER");
