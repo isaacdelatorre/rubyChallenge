@@ -29,7 +29,7 @@ public class Checkout extends HashMap<CabifyItem, Integer> {
 		} else {
 			amount++;
 			put(cabifyItem, amount);
-			// put(cabifyItem, ++currentAmount) is bad practice.
+			// put(cabifyItem, ++amount) is bad practice.
 		}
 		return amount;
 	}
